@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <script src="script.js"></script>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Maria Qamar</a>
+        </div>
+
+        <div class="right">
+          <a href="#Skills-section">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#projects-section">
+            <i class="fa-solid fa-list-check"></i>
+            <span>Projects</span>
+          </a>
+
+          <a href="#Education-section">
+            <i class="fa-solid fa-user-graduate"></i>
+            <span>Education</span>
+          </a>
+
+          <a href="#Contact-section">
+            <i class="fa-solid fa-address-book"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+    </nav>
+    <main>
+      <div id="#top"></div>
+      <div id="#simple"></div>
+        <!--SECTION 1: Introduction-->
+        <section class="hero-section">
+        <div class="text">
+          <h2><p>
+            Hi, I'm Maria &#128075 </p>  </h2>
+            <p>"I'm a passionate Frontend Developer and aspiring AI enthusiast with a strong foundation in web technologies and design. I've recently expanded my skills into Artificial Intelligence to create intelligent, user-focused digital experiences by blending design with AI-driven functionality. In my free time, I enjoy playing piano, cooking, baking, jewelry making, movies, badminton, and continuous learning."</p>
+           
+            <div class="links">
+              <a href="images/cv.jpg" download="Maria_Qamar_CV.jpg" class="download-btn">
+                <i class="fa-solid fa-download" aria-hidden="true"></i>
+                <span>Download CV</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="headshot">
+            <img src="images/profile.jpg" alt="Maria Qamar headshot">
+          </div>
+        </section>
+
+        <!--SECTION 2: Skills-->
+        <section id="Skills-section" class="skills">
+          <h2>Skills</h2>
+          <p>I have basic knowledge of HTML, CSS, and JavaScript, and I enjoy creating clean and responsive websites. I work with React for frontend development and use tools like Figma and Adobe XD for designing user interfaces. I'm also familiar with Git and GitHub for version control. I have basic knowledge of Python and I’m exploring how it can be used in web development and artificial intelligence. I enjoy learning new skills and always look forward to trying new technologies.</p>
+          <div class="Skills">
+                    <!--SKILLS: HTML-->
+                    <h2i>PROGRAMMING SKILLS</h2i>
+                    <div class="skill-block">
+                      <div class="skill-heading">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                      </div>
+                      <div class="bar">
+                        <div class="bar-fill HTML">80%</div>
+                      </div>
+
+                      <!--SKILLS: CSS-->
+                      <div class="skill-block">
+                        <div class="skill-heading">
+                          <i1 class="fa-brands fa-css3"></i1>
+                          <span>CSS</span>
+                        </div>
+                        <div class="bar">
+                          <div class="bar-fill css">70%</div>
+                        </div>
+
+                        <!--SKILLS: JavaScript-->
+                        <div class="skill-block">
+                          <div class="skill-heading">
+                            <i2 class="fa-brands fa-js"></i2>
+                            <span>JavaScript</span>
+                          </div>
+                          <div class="bar">
+                            <div class="bar-fill JavaScript">50%</div>
+                          </div>
+
+                          <!--SKILLS: UI/UX-->
+                          <div class="skill-block">
+                            <div class="skill-heading">
+                              <i3 class="fas fa-pencil-ruler"></i3>
+                              <span>UI/UX Graphics</span>
+                            </div>
+                            <div class="bar">
+                              <div class="bar-fill Graphics">40%</div>
+                            </div>
+
+                            <!--SKILLS: Python-->
+                            <div class="skill-block">
+                              <div class="skill-heading">
+                                <i4 class="fa-brands fa-python"></i4>
+                                <span>Python</span>
+                              </div>
+                              <div class="bar">
+                                <div class="bar-fill Python">50%</div>
+                              </div>
+
+                              <!--SKILLS: AI Fundamentals-->
+                              <div class="skill-block">
+                                <div class="skill-heading">
+                                  <i5 class="fas fa-brain"></i5>
+                                  <span>AI Fundamentals</span>
+                                </div>
+                                <div class="bar">
+                                  <div class="bar-fill ai-fundamentals">40%</div>
+                    </div>
+                    </div>
+          </div>
+          <div class="back-to-top-wrapper">
+            <a href="#top" class="back-to-top top-skills">↑ Back to Top</a>
+          </div>
+        </section>
+
+        <!--SECTION 3: Projects-->      
+        <section id="projects-section" class="project">
+          <h2>My Projects</h2>
+          <div class="projects-container">
+            <div class="project-card">
+              <img src="images/colorcurator.jpg" alt="Colors Curator Screenshot" class="project-image">
+              <h3 class="project-title">Colors Curator</h3>
+              <p class="project-description">
+                A MERN Stack platform using AI to generate and customize color palettes based on psychology.This was final year project developed by a team of four members. I contributed as the Frontend Developer, where I was responsible for designing and developing the user interface.
+              </p>
+              <a href="https://colors-curator-frontend.vercel.app/" class="project-link" target="_blank">View Project</a>
+            </div>
+        
+            <div class="project-card">
+              <h3 class="project-title">Face Recognition App</h3>
+              <p class="project-description">
+                A Python-based application for recognizing faces using OpenCV and machine learning algorithms <br>(Working on it).
+              </p>
+              <a href="https://github.com/yourusername/face-recognition" class="project-link" target="_blank">View Project</a>
+            </div>
+        
+            <!-- Add more project-card blocks as needed -->
+          </div>
+        </section>
+        <section>
+        <!--SECTION 5: Project (back to top)-->
+        <div class="back-to-simple-wrapper">
+          <a href="#top" class="back-to-simple simple-project">↑ Back to Top</a>
+        </div>
+        </section>
+
+        <!--SECTION 3: Education-->
+        <div class="center-container"></div>
+        <section id="Education-section" class="education">
+          <h2>EDUCATION</h2>
+          <div class="Education">
+        
+          <div class="box">
+            <h3>BS in Software Engineering</h3>
+            <p>Sir Syed University Of Engineering & Technology (2020 - 2024) </p>
+            <p>CGPA 3.44</p>
+            <p>karachi, Pakistan
+            </p>
+          </div>
+
+          <div class="box1">
+            <h3>Intermediate: Pre Engineering</h3>
+            <p>Madar e Millat Girls Degree College (2018 - 2020)</p>
+            <p>karachi, Pakistan
+            </p>
+          </div>
+
+          <div class="box2">
+            <h3>Matriculation: Computer Science</h3>
+            <p>Marigold Model Secondary School (2018)</p>
+            <p>karachi, Pakistan
+            </p>
+          </div>
+        </section>
+        <!--Education (back to top)-->
+        <div class="back-to-ed-wrapper">
+         <a href="#top" class="back-to-ed ed-education">↑ Back to Top</a>
+       </div>
+       </section>
+      </div>
+        
+        <!--SECTION 5: Contact-->
+        <section id="Contact-section" class="contact">
+          <h2>CONTACT</h2>
+          <div class="Contact">
+            <div class="contact-wrapper">
+              <div class="contact-form">
+                <h3>Send a message</h3>
+                <!--Form section-->
+                <form id="contactForm" action="https://formsubmit.co/mariaqamar168@gmail.com" method="POST" onsubmit="return showThankYouMessage();">
+                  <div class="form-group">
+                    <input type="text" name="name" placeholder="Enter Your First Name" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" name="last_name" placeholder="Enter Your Last Name" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                  </div>
+                  <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                  </div>
+                  <button type="submit">Send Message</button>
+                </form>
+                <div id="thankYouMessage" style="display:none; padding-top: 10px;">
+                  <p>Thank you for your message! I'll get back to you shortly.</p>
+                </div>
+              <!--Contact Info section-->
+              <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-info1">
+                <a href="https://github.com/mariaqamar27" target="_blank" rel="noopener noreferrer">
+                  <p class="github"><i class="fa-brands fa-github"></i>
+                  <span>Github</span></p>
+                </a>
+                </div>
+                <br>
+                <div class="contact-info2">
+                <a href="https://www.linkedin.com/in/maria-qamar-80315327a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
+                  <p><i class="fa-brands fa-linkedin"></i>
+                  <span>LinkedIn</span></p>
+                </a>
+              </div>
+                <br>
+                <div class="contact-info2">
+                <a href="mailto:mariaqamar168@gmail.com"> 
+                  <p><i class="fa-solid fa-envelope"></i>
+                  <span>Email</span></p>
+                </a>
+              </div>
+              </div>
+        </section>
+        <!--Contact (back to top)-->
+        <div class="back-to-top-wrapper">
+          <a href="#top" class="back-to-top top-contact">↑ Back to Top</a>
+        </div>
+        </section>
+    </main>
+</body>
+<footer class="portfolio-footer">
+  <div class="footer-name">
+    Maria Qamar —
+    <span class="looping-text">
+      <span class="word">AI Enthusiast</span>
+      <span class="word">Frontend Developer</span>
+    </span>
+  </div>
+  <div class="footer-copy">© All rights reserved.</div>
+</footer>
+</html>
